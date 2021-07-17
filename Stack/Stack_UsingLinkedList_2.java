@@ -89,7 +89,7 @@ public class Stack_UsingLinkedList_2 {
 		obj.push(6);
 		obj.push(7);
 		System.out.println("Pop element : " + obj.pop());
-		System.out.println("Top element : " + obj.top());
+		System.out.println("Top/Peek element : " + obj.top());
 		System.out.println("Size of stack : " + obj.size());
 		System.out.println("Element is present : " + obj.search(9));
 	}
